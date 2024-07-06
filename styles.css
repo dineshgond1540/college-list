@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0ffff;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+    background-color: #00ced1;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+table td.course-fee {
+    color: rgb(15, 224, 8);
+    font-weight: bold;
+}
+
+table td.placement span.label {
+    color: rgb(15, 224, 8);
+    font-weight: bold;
+}
+
+.review-info {
+    color: rgb(243, 120, 6);
+}
+
+.best-in-social {
+    background-color: rgb(245, 245, 161);
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.best-in-social img {
+    vertical-align: middle;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.compare-placement {
+    color: #FF7F50;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.course-fee span {
+    font-weight: normal;
+    color: #100f0f;
+}
+
+td {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.apply {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #FF7F50;
+}
+
+.down {
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(15, 224, 8);
+}
+
+.add {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+td {
+    position: relative;
+    padding: 10px;
+}
+
+.featured {
+    position: absolute;
+    top: -12px;
+    right: 3px;
+    background-color: #ca0101;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.course-info {
+    background-color: #fffdaf;
+    color: #FF7F50;
+    padding: 3px;
+    display: inline-block;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.more {
+    background-color: #b6ffff;
+    color: #483d8b;
+    padding: 3px;
+    display: inline-block;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+
+tr:nth-child(even) {
+    background-color: #F8F8FF;
+}
+
+tr:hover {
+    background-color: #FFFFFF;
+}
